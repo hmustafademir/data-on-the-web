@@ -1,0 +1,40 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://github.com/hmustafademir/data-on-the-web/blob/master/sports.schema.json",
+    "title": "Sports",
+    "description": "List of sport events.",
+    "type": "array",
+    "items": {
+        "type": "object",
+        "description": "Event.",
+        "properties": {
+            "ID": {
+                "type": "integer",
+                "description": "The unique event code."
+            },
+            "location": {
+                "type": "object",
+                "description": "Location.",
+                "properties": {
+                    "city": {
+                        "type": "object",
+                        "description": "City.",
+                        "properties": {
+                            "ID": "TODO",
+                            "name": "TODO"
+                        }
+                    },
+                    "postcode": {},
+                    "street": "TODO",
+                    "street_number": "TODO"
+                }
+            },
+            "date": "TODO",
+            "title": "TODO",
+            "description": "TODO"
+        },
+        "required": [
+            "ID"
+        ]
+    }
+}
