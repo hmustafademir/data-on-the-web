@@ -4,6 +4,17 @@
     "tableSchema": {
         "columns": [
             {
+                "name": "id",
+                "titles": {
+                    "en": "id"
+                },
+                "dc:description": {
+                    "en": "The unique event code."
+                },
+                "datatype": "integer",
+                "required": true
+            },
+            {
                 "name": "city",
                 "titles": {
                     "en": "city"
@@ -70,6 +81,6 @@
                 "required": true
             }
         ],
-        "primaryKey": "event_title"
+        "primaryKey": "id"
     }
 }
