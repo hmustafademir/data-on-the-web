@@ -55,7 +55,7 @@
                 "dc:description": {
                     "en": "Date specifiying when the event starts."
                 },
-                "datatype": "dateTime",
+                "datatype": "date",
                 "required": true
             },
             {
