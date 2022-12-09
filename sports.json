@@ -11,8 +11,8 @@
             "street_number": 22
         },
         "date": {
-            "date": "16-09-2022",
-            "dateTime_start": "16-09-2022T09:00:00",
+            "date": "2022-09-16",
+            "dateTime_start": "2022-09-16T09:00:00"
         },
         "title": "RedCon 2022",
         "type": "football",
@@ -29,8 +29,8 @@
             "street": "Rennbahnallee"
         },
         "date": {
-            "date": "09-04-2023",
-            "dateTime_start": "09-04-2023T10:30:00"
+            "date": "2023-04-09",
+            "dateTime_start": "2023-04-09T10:30:00"
         },
         "title": "Horse racing in Hoppegarten 2023",
         "type": "horse_racing",
@@ -48,7 +48,7 @@
             "street_number": 3
         },
         "date": {
-            "date": "05-11-12"
+            "date": "2022-11-05"
         },
         "title": "Bundesliga 2022/2023 - 13. Spieltag - Herta vs. Bayern",
         "type": "soccer"
