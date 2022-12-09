@@ -14,24 +14,69 @@
             },
             "location": {
                 "type": "object",
-                "description": "Location.",
+                "description": "The location description.",
                 "properties": {
                     "city": {
                         "type": "object",
                         "description": "City.",
                         "properties": {
-                            "ID": "TODO",
-                            "name": "TODO"
+                            "ID": {
+                                "type": "integer",
+                                "description": "The unique city code."
+                            },
+                            "name": {
+                                "type": "string",
+                                "description": "The city name."
+                            }
                         }
                     },
-                    "postcode": {},
-                    "street": "TODO",
-                    "street_number": "TODO"
+                    "postcode": {
+                        "type": "integer",
+                        "description": "The city postcode."
+                    },
+                    "street": {
+                        "type": "string",
+                        "description": "The street name."
+                    },
+                    "street_number": {
+                        "type": "integer",
+                        "description": "The street number."
+                    }
                 }
             },
-            "date": "TODO",
-            "title": "TODO",
-            "description": "TODO"
+            "date": {
+                "type": "object",
+                "description": "The date description.",
+                "properties": {
+                    "date": {
+                        "type": "string",
+                        "format": "date",
+                        "description": "The date of the event."
+                    },
+                    "dateTime_start": {
+                        "type": "string",
+                        "format": "date-time",
+                        "description": "The exact start date of the event."
+                    },
+                    "dateTime_end": {
+                        "type": "string",
+                        "format": "date-time",
+                        "description": "The exact end date of the event."
+                    }
+                }
+            },
+            "title": {
+                "type": "string",
+                "description": "The title of the event."
+            },
+            "type": {
+                "type": "string",
+                "description": "The sport type of the event."
+            },
+            "description": {
+                "type": "string",
+                "description": "The event description."
+            }
         },
         "required": [
             "ID"
