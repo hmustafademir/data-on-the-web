@@ -1,7 +1,25 @@
 {
-    "@context": "http://www.w3.org/ns/csvw",
+    "@id": "https://cu.opendata.cz/course-data-on-the-web/resource/sports",
+    "@context": [
+        "https://raw.githubusercontent.com/CLARIAH/COW/master/csvw.json",
+        {
+            "@language": "en",
+            "@base": "https://cu.opendata.cz/course-data-on-the-web/resource/events/sports/"
+        },
+        {
+            "dc": "http://purl.org/dc/terms/",
+            "sv": "https://cu.opendata.cz/course-data-on-the-web/vocabulary/sports#"
+        }
+    ],
+    "dialect": {
+        "delimiter": ",",
+        "encoding": "UTF-8",
+        "quoteChar": "\""
+    },
     "url": "sports.csv",
     "tableSchema": {
+        "aboutUrl": "{id}",
+        "primaryKey": "id",
         "columns": [
             {
                 "name": "id",
@@ -80,7 +98,6 @@
                 "datatype": "integer",
                 "required": true
             }
-        ],
-        "primaryKey": "id"
+        ]
     }
 }
