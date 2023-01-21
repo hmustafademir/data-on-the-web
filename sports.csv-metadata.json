@@ -8,7 +8,8 @@
         },
         {
             "dc": "http://purl.org/dc/terms/",
-            "sv": "https://cu.opendata.cz/course-data-on-the-web/vocabulary/sports#"
+            "sv": "https://cu.opendata.cz/course-data-on-the-web/vocabulary/sports#",
+            "s": "https://schema.org/"
         }
     ],
     "dialect": {
@@ -52,6 +53,7 @@
                     "en": "Title of the sport event."
                 },
                 "datatype": "string",
+                "propertyUrl": "s:title",
                 "required": true
             },
             {
@@ -63,6 +65,7 @@
                     "en": "Sport type which is primarily assigned to the event."
                 },
                 "datatype": "string",
+                "propertyUrl": "s:about",
                 "required": true
             },
             {
@@ -74,6 +77,7 @@
                     "en": "Location where the event takes place."
                 },
                 "datatype": "string",
+                "propertyUrl": "s:location",
                 "required": true
             },
             {
@@ -85,6 +89,7 @@
                     "en": "Date specifiying when the event starts."
                 },
                 "datatype": "date",
+                "propertyUrl": "s:startDate",
                 "required": true
             },
             {
